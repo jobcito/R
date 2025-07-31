@@ -12,7 +12,7 @@ str(datos)
 summary(datos)
 
 # Filtrar por RUT, sin filtrar por columna especifica
-registros_filtrados <- datos[datos$RUT == "19637245", ]
+registros_filtrados <- datos[datos$RUT == "", ]
 
 # Mostrar los registros filtrados en un grid
 View(registros_filtrados)
