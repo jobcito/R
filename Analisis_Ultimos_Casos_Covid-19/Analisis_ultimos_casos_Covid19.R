@@ -13,8 +13,8 @@ library(lubridate)
 
 # 2. Descargar datos actualizados de OWID
 url <- "https://covid.ourworldindata.org/data/owid-covid-data.csv"
-destfile <- "owid-covid-data.csv"
-download.file(url, destfile, method = "libcurl")
+destfile <- "C:/Users/jorge/OneDrive/Documentos/R/Analisis_Ultimos_Casos_Covid-19/owid-covid-data.csv"
+#download.file(url, destfile, method = "libcurl")
 
 # 3. Leer el archivo CSV
 covid <- read_csv(destfile, show_col_types = FALSE)
